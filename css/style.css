@@ -1,0 +1,99 @@
+body{
+	font-family: "Lato";
+	color: #424551;
+	}
+.main__container {
+	max-width: 810px;
+	margin: 0 auto;
+}
+.article__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 26px;
+}
+.article__image {
+	margin-bottom: 66px;
+	text-align: center;
+}
+.article__image img {
+	max-width: 100%;
+}
+.article__main-text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+.article__text {
+	line-height: 160%;
+	margin-bottom: 48px;
+}
+
+.article__text p {
+	margin-bottom: 22px;
+}
+.article__blockquote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 48px;
+	padding-left: 60px;
+	background-image: url("../img/icons/braces.png");
+	background-repeat: no-repeat;
+}
+
+.article__text ul {
+	margin-bottom: 24px;
+}
+
+.article__text ul li {
+	padding-left: 32px;
+	background: url('../img/icons/check.svg') 0 6px no-repeat;
+}
+.article__text ul li:not(:last-child){
+	margin-bottom: 4px;
+}
+
+.section__container{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.mission ul {
+	margin-bottom: 24px;
+	line-height: 20px;
+}
+
+.mission ul li {
+	padding-left: 32px;
+	background: url('../img/icons/check.svg') 0 6px no-repeat;
+}
+
+.mission ul li:not(:last-child) {
+	margin-bottom: 4px;
+}
+.subtittle {
+	font-weight: 700;
+	color: #1E212C;
+	text-transform: uppercase;
+}
+.subtittle__text {
+	margin-bottom: 20px;
+}
+.tittle {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+}
+.cours__tittle {
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 27px;
+	color: #1E212C;
+}
+.cours__author{
+	color: 787A80;
+}
